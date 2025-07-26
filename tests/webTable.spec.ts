@@ -89,3 +89,4 @@ async function selectProduct (rows,page,name){
      await matchedRow.locator('input').check();
 }
 
+
