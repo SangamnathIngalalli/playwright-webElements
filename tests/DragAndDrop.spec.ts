@@ -19,6 +19,3 @@ test('alert', async ({ page }) => {
     await page.waitForTimeout(5000);
 
     })
-
-
-
