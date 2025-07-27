@@ -1,7 +1,37 @@
-
-# Playwright
+# Node.js
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+dist/
+build/
+.env
+.env.*
+
+# Playwright test results
+test-results/
+playwright-report/
+*.log
+
+# Playwright media artifacts
+*.png
+*.mp4
+*.webm
+*.zip
+
+# Reports
+reports/
+*.xml
+*.html
+*.json
+
+# Allure results and reports
+allure-results/
+allure-report/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Coverage
+coverage/
